@@ -1,0 +1,101 @@
+body {
+  font-family: "Nunito", sans-serif; }
+
+h1, h2, h3 {
+  font-family: "Syncopate",sans-serif; 
+  text-shadow: 1px 1px black;
+}
+
+h2 {
+  color: #3046C5; }
+
+header h2 {
+  color: #CEC8FF; }
+
+.site-footer {
+  background-image: linear-gradient(#d4d4d4, #ffffff);
+  padding: 20px 0px; 
+}
+.row-content{
+  padding: 50px o;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer a{
+  color: darkslategray;
+}
+
+.btn-social-icon {
+  color: white;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-color: #616771;
+  color: white; }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.row-content {
+  margin: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+#circleLogo {
+background-color:white;
+border-radius: 50%;
+width: 150px;
+height: 150px;
+color: black;
+}
+#middleCircleLogo {
+  background-color:#616771;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: black;
+  }
+.active {
+  border-top: 2px solid #0dbdae;
+  border-bottom: 2px solid #0dbdae;
+}
+
+#andSymbol{
+  color: #0dbdae;
+}
+.navbar{
+  font-family: "Nunito";
+  color: #eeeeee;
+  text-shadow: 1px 1px black;
+}
+
+.nav a {
+  color: white;
+  font-size: 1.1em;
+}
+
+.pricingRequest {
+  padding:20px;
+}
+img{
+  height: 125px;
+  width: 125px;
+}
+.caption {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+}
+
+.field {
+  text-align: right;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "lil-preshy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breezecakeyum/lil-preshy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breezecakeyum/lil-preshy/issues"
+  },
+  "homepage": "https://github.com/breezecakeyum/lil-preshy#readme"
+}

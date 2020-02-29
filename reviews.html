@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syncopate&display=swap" />
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" />
-        <title>P and D - Home</title>
+        <title>P and D - Reviews</title>
     </head>
 
     <body>
@@ -38,12 +38,12 @@
                             <button class="navbar-toggler  mr-auto" type="button" data-toggle="collapse" data-target="#pndNavbar2"><span class="navbar-toggler-icon"></span></button>
                             <div class="collapse navbar-collapse" id="pndNavbar">
                                 <ul class="nav">
-                                    <li class="nav-item active m-auto"><a class="nav-link" href="#">Home</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="about.html" > About</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="gallery.html" > Gallery</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog.html" onmouseover="red()" onmouseout="black()"> Blog</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="reviews.html" onmouseover="red()" onmouseout="black()"> Reviews</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="pricing.html" onmouseover="red()" onmouseout="black()"> Pricing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html" onmouseover="mouseOver()" onmouseout="mouseOut()"> About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="gallery.html" onmouseover="mouseOver()" onmouseout="mouseOut()"> Gallery</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.html" onmouseover="mouseOver()" onmouseout="mouseOut()"> Blog</a></li>
+                                    <li class="nav-item active m-auto"><a class="nav-link" href="#" onmouseover="mouseOver()" onmouseout="mouseOut()"> Reviews</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="pricing.html" onmouseover="mouseOver()" onmouseout="mouseOut()"> Pricing</a></li>
                                 </ul>
                             </div>
                         </div> 
@@ -53,11 +53,11 @@
                     <div class="container">
                         <div class="collapse navbar-collapse" id="pndNavbar2">
                             <ul class="nav">
-                                <li class="nav-item active col-4 text-center"><a class="nav-link" href="#">Home</a></li>
+                                <li class="nav-item col-4 text-center"><a class="nav-link" href="index.html">Home</a></li>
                                 <li class="nav-item col-4 text-center"><a class="nav-link" href="about.html"> About</a></li>
                                 <li class="nav-item col-4 text-center"><a class="nav-link" href="gallery.html"> Gallery</a></li>
                                 <li class="nav-item col-4 text-center"><a class="nav-link" href="blog.html"> Blog</a></li>
-                                <li class="nav-item col-4 text-center"><a class="nav-link" href="reviews.html"> Reviews</a></li>
+                                <li class="nav-item active col-4 text-center"><a class="nav-link" href="#"> Reviews</a></li>
                                 <li class="nav-item col-4 text-center"><a class="nav-link" href="pricing.html"> Pricing</a></li>
                             </ul>
                         </div>
@@ -68,59 +68,57 @@
 
     
 <div class="container">
-    <div class="row row-content">
-        <div class="col-md mx-auto">
-
-                        <img class="d-block w-75 h-75 mx-auto" src="img/cookie.jpg" alt="Featured Creation" />
-                        <div class="caption w-10 mx-auto">
-                            <h3 class="d-flex justify-content-center">Featured Creation</h3>
-                            <p class="d-flex justify-content-center">Cookies are good.</p>
+    <div class="row">
+        <div class="col">
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <div class="rounded-circle">
+                        <img class="d-flex mr-3 img-thumbnail rounded-circle" src="img/dexter.png" alt="Bootstrap Outfitters">
+                    </div>
+                        <div class="media-body align-self-center">
+                            <h3>Dexter</h3>
+                            <p class="d-none d-sm-block">Sed nec diam non metus posuere placerat. Sed consequat faucibus enim, a porta turpis maximus id. Proin placerat gravida ullamcorper. Morbi tincidunt justo ut orci rutrum molestie. Phasellus consequat suscipit dui, at ullamcorper nisl porta nec. Maecenas fringilla ornare rhoncus. Proin porttitor ut eros nec maximus. Cras ullamcorper lacus id faucibus sollicitudin. Vivamus at ligula viverra, porta urna ac, tincidunt ipsum.</p>
                         </div>
-        </div>
-    </div>
-</div>
-
-<h3 class="text-center">Past Features</h3>
-
-<div class="container">
-    <div class="row row-content">
-        <div class="col-6 col-md">
-
-                        <img class="d-block w-75 h-75 mx-auto" src="img/cookie.jpg" alt="Cookie" />
-                        <div class="caption w-10 mx-auto">
-                            <h3 class="d-flex justify-content-center">Featured Creation</h3>
-                            <p class="d-flex justify-content-center">Cookies are good.</p>
-                        </div>
-        </div>
-        <div class="col-6 col-md">
-
-            <img class="d-block w-75 h-75 mx-auto" src="img/cookie.jpg" alt="Cookie" />
-            <div class="caption w-10 mx-auto">
-                <h3 class="d-flex justify-content-center">Featured Creation</h3>
-                <p class="d-flex justify-content-center">Cookies are good.</p>
+                    </div>
+                </div>
             </div>
-    </div>
-<div class="row row-content">
-<div class="col-6 col-md">
 
-    <img class="d-block w-75 h-75 mx-auto" src="img/cookie.jpg" alt="Breadcrumb Trail Campground" />
-    <div class="caption w-10 mx-auto">
-        <h3 class="d-flex justify-content-center">Featured Creation</h3>
-        <p class="d-flex justify-content-center">Cookies are good.</p>
-    </div>
-</div>
-<div class="col-6 col-md">
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <div class="rounded-circle">
+                        <img class="d-flex mr-3 img-thumbnail rounded-circle" src="img/jb.png" alt="Bootstrap Outfitters">
+                    </div>
+                        <div class="media-body align-self-center">
+                            <h3>JB</h3>
+                            <p class="d-none d-sm-block">Sed nec diam non metus posuere placerat. Sed consequat faucibus enim, a porta turpis maximus id. Proin placerat gravida ullamcorper. Morbi tincidunt justo ut orci rutrum molestie. Phasellus consequat suscipit dui, at ullamcorper nisl porta nec. Maecenas fringilla ornare rhoncus. Proin porttitor ut eros nec maximus. Cras ullamcorper lacus id faucibus sollicitudin. Vivamus at ligula viverra, porta urna ac, tincidunt ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <img class="d-block w-75 h-75 mx-auto" src="img/cookie.jpg" alt="Breadcrumb Trail Campground" />
-    <div class="caption w-10 mx-auto">
-        <h3 class="d-flex justify-content-center">Featured Creation</h3>
-        <p class="d-flex justify-content-center">Cookies are good.</p>
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail rounded-circle" src="img/stitch.jpg" alt="Bootstrap Outfitters">
+                        <div class="media-body align-self-center">
+                            <h3>STITCH</h3>
+                            <p class="d-none d-sm-block">Sed nec diam non metus posuere placerat. Sed consequat faucibus enim, a porta turpis maximus id. Proin placerat gravida ullamcorper. Morbi tincidunt justo ut orci rutrum molestie. Phasellus consequat suscipit dui, at ullamcorper nisl porta nec. Maecenas fringilla ornare rhoncus. Proin porttitor ut eros nec maximus. Cras ullamcorper lacus id faucibus sollicitudin. Vivamus at ligula viverra, porta urna ac, tincidunt ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>
 </div>
-</div>
-    </div>
-</div>
-
 
 
 
@@ -131,11 +129,11 @@
                     <div class="col-4 col-sm-2 offset-1">
                         <h5>Links</h5>
                         <ul class="list-unstyled">
-                            <li><a href="#">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="blog.html"> Blog</a></li>
-                            <li><a href="reviews.html"> Reviews</a></li>
+                            <li><a href="#"> Reviews</a></li>
                             <li><a href="pricing.html"> Pricing</a></li>
                         </ul>
                     </div>
